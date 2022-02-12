@@ -64,7 +64,7 @@ formatter.match({
   "location": "homepageSteps.openApplication()"
 });
 formatter.result({
-  "duration": 3741328700,
+  "duration": 3927701800,
   "status": "passed"
 });
 formatter.match({});

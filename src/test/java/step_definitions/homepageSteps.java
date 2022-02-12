@@ -7,9 +7,9 @@ public class homepageSteps {
 
     homepagePage hp = new homepagePage();
 
-    @Given("^I open application$")
-    public void openApplication(){
-        hp.openApp();
+    @Given("^I open application in (.*) (.*) Browser$")
+    public void openApplication(String env, String browser){
+        hp.openApp(env, browser);
     }
 
 }
