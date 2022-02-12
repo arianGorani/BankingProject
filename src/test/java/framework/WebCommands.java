@@ -11,6 +11,7 @@ import org.openqa.selenium.support.ui.Wait;
 import java.time.Duration;
 import java.util.List;
 import java.util.Set;
+import java.util.concurrent.TimeUnit;
 
 public class WebCommands extends Web {
 
@@ -399,6 +400,33 @@ public class WebCommands extends Web {
     public void switchToFrame(int index) {
         Web.getDriver().switchTo().frame(index);
     }
+    public void enterField(By locator, String name){
+        WebElement inIt = Web.getDriver().findElement(locator);
+        inIt.clear();
+        inIt.sendKeys(name);
+    }
+    public void enterField(By locator, Integer number){
+        WebElement inIt = Web.getDriver().findElement(locator);
+        inIt.clear();
+        inIt.sendKeys(String.valueOf(number));
+    }
+    public void waitASec(){
+        Web.getDriver().manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
+    }
+    public void waitAMin(){
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+    public void selectDropDown(By locator, String name){
+        WebElement dropDown = Web.getDriver().findElement(locator);
+        Select dropD = new Select(dropDown);
+        dropD.selectByVisibleText(name);
+    }
+
+
 }
 
 

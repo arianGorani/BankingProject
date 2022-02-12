@@ -51,7 +51,7 @@ public class Web {
         driver.manage().timeouts().implicitlyWait(TestConstant.tenSeconds, TimeUnit.SECONDS);
     }
 
-    //@After
+    @After
     public void closePage() {
         driver.close();
     }
