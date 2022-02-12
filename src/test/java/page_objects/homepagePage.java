@@ -12,8 +12,8 @@ public class homepagePage extends WebCommands {
 
     Web web = new Web();
 
-    public void openApp(){
-        web.openUrl();
+    public void openApp(String env,String browser){
+        web.openUrl(env, browser);
     }
 
     By clickButton = By.xpath("//button[contains(text(),'Bank Manager Login')]");

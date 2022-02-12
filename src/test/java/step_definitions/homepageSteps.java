@@ -12,9 +12,15 @@ public class homepageSteps {
 
     homepagePage hp = new homepagePage();
 
+<<<<<<< HEAD
     @Given("^I open the application$")
     public void openApplication(){
         hp.openApp();
+=======
+    @Given("^I open application in (.*) (.*) Browser$")
+    public void openApplication(String env, String browser){
+        hp.openApp(env, browser);
+>>>>>>> 59305033f400ec1046690f362e43e035acb84d24
     }
     @When("^I click on Bank Manager Login$")
     public void clickButton(){
