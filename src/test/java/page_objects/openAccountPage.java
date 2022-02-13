@@ -31,6 +31,7 @@ public class openAccountPage extends WebCommands {
     public void clkProcess(){
         clickThis(clickProcess);
     }
+
     public void alertVerification(){
         try {
             Alert popUp = Web.getDriver().switchTo().alert();
