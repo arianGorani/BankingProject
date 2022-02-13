@@ -7,3 +7,4 @@ Feature:
     And I chose 'Hermoine Granger' customer from Dropdown
     And I click Login
     Then I verify the user account 'Hermoine Granger' isDisplayed
+
