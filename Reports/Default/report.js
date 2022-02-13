@@ -361,7 +361,11 @@ formatter.match({
   "location": "homepageSteps.openApplication()"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 1735862800,
+=======
+  "duration": 3927701800,
+>>>>>>> main
   "status": "passed"
 });
 formatter.match({
