@@ -91,16 +91,10 @@ public class Web {
         }
 
 
-<<<<<<< HEAD
-    @After
-    public void closePage() {
-        driver.close();
-    }
-=======
         public void quitPages () {
             driver.quit();
         }
->>>>>>> 59305033f400ec1046690f362e43e035acb84d24
+
 
         public static WebDriver getDriver () {
             return driver;
