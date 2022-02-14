@@ -17,11 +17,11 @@ public class homepagePage extends WebCommands {
     }
 
     By clickButton = By.xpath("//button[contains(text(),'Bank Manager Login')]");
-    By addButton = By.xpath("//body/div[1]/div[1]/div[2]/div[1]/div[1]/button[1]");
-    By enterName = By.xpath("//body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/form[1]/div[1]/input[1]");
-    By enterLast = By.xpath("//body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/form[1]/div[2]/input[1]");
-    By enterPostal = By.xpath("//body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/form[1]/div[3]/input[1]");
-    By clickAddButton = By.xpath("//body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/form[1]/button[1]");
+    By addButton = By.xpath("//button[@ng-click='addCust()']");
+    By enterName = By.xpath("//input[@placeholder='First Name']");
+    By enterLast = By.xpath("//input[@placeholder='Last Name']");
+    By enterPostal = By.xpath("//input[@placeholder='Post Code']");
+    By clickAddButton = By.xpath("//button[@type='submit']");
 
 
     public void clickButtonB(){

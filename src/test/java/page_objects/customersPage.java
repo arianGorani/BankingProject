@@ -6,22 +6,30 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class customersPage extends WebCommands {
 
-    By costumeButton=By.xpath("//body/div[1]/div[1]/div[2]/div[1]/div[1]/button[3]");
+    List<WebElement> listBefore = new ArrayList<>();
+    List<WebElement> listAfter = new ArrayList<>();
+
+    By costumeButton=By.xpath("//button[@ng-click='showCust()']");
     By listPresent = By.xpath("//tbody/tr");
-    By delCustomer = By.xpath("//tbody/tr[5]/td[5]/button[1]");
+    By delCustomer = By.xpath("(//button[text()='Delete'])[1]");
 
     public void clickCustom(){
         clickThis(costumeButton);
     }
+
     public void delCustomer(){
-        List<WebElement> listBefore = Web.getDriver().findElements(listPresent);
+        listBefore = Web.getDriver().findElements(listPresent);
         clickThis(delCustomer);
-        List<WebElement> listAfter = Web.getDriver().findElements(listPresent);
+        listAfter = Web.getDriver().findElements(listPresent);
+    }
+
+    public void verifyCustomerIsDeleted(){
         Assert.assertNotEquals(listBefore, listAfter);
-        System.out.println(listBefore.size()+" "+ listAfter.size());
+        System.out.println("List before deleted customer " + listBefore.size()+" "+ "List after deleted customer " +  listAfter.size());
     }
 }

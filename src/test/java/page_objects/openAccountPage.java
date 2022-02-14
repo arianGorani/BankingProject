@@ -12,7 +12,7 @@ import java.util.List;
 
 public class openAccountPage extends WebCommands {
 
-    By openAccount = By.xpath("//body/div[1]/div[1]/div[2]/div[1]/div[1]/button[2]");
+    By openAccount = By.xpath("//button[@ng-click='openAccount()']");
     By selectDropDown = By.xpath("//select[@id='userSelect']");
     By selectMoney = By.xpath("//select[@id='currency']");
     By clickProcess = By.xpath("//button[contains(text(),'Process')]");

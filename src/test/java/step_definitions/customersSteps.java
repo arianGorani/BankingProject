@@ -2,11 +2,14 @@ package step_definitions;
 
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
+import driverWrapper.Web;
 import page_objects.customersPage;
 
 public class customersSteps {
 
     customersPage cusPage = new customersPage();
+    Web web = new Web();
+
     @And("^I click on Customer$")
     public void i_click_on_Customer() {
         cusPage.clickCustom();
@@ -15,9 +18,11 @@ public class customersSteps {
     public void delCustomer() {
         cusPage.delCustomer();
     }
+
     @Then("^I verify the customer is deleted$")
     public void i_verify_the_customer_is_deleted() {
-
+        cusPage.verifyCustomerIsDeleted();
+        web.closePage();
     }
 
 
