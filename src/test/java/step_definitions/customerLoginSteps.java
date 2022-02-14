@@ -1,6 +1,7 @@
 package step_definitions;
 
 import cucumber.api.java.en.And;
+import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import page_objects.customerLoginPage;
 
@@ -19,6 +20,11 @@ public class customerLoginSteps {
     @And ("^I click Login$")
     public void clickLoginBtn(){
         cusLogin.clickLogin();
+    }
+
+    @Then("^Then I verify they are more than one account under Hermoine Granger account$")
+    public void verifyUserHasMoreThanOneAcc(){
+        cusLogin.verifyUserHasMoreThanOneAcc();
     }
 
 }
