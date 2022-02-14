@@ -4,14 +4,16 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import driverWrapper.Web;
 import page_objects.homepagePage;
 
 import java.io.IOException;
 
+
 public class homepageSteps {
 
     homepagePage hp = new homepagePage();
-
+    Web web = new Web();
 
     @Given("^I open application in (.*) (.*) Browser$")
     public void openApplication(String env, String browser){
@@ -45,5 +47,6 @@ public class homepageSteps {
     @Then("^I verify pop up alert is displayed with message '(.+)'$")
     public void verifyAdding(String name) {
         hp.takesScreenshot(name);
+        web.closePage();
     }
 }

@@ -11,3 +11,4 @@ Feature:
           | Browser|
           | Chrome |
           | Firefox|
+          | Edge   |
