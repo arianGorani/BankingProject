@@ -26,5 +26,16 @@ public class customerLoginSteps {
     public void verifyUserHasMoreThanOneAcc(){
         cusLogin.verifyUserHasMoreThanOneAcc();
     }
-
+    @When("^user in customer page, verify page name$")
+    public void user_in_customer_page_verify_page_name() {
+        cusLogin.pageName();
+    }
+    @Then("^I verify name on-page is the same as login '(.+)'$")
+    public void i_verify_name_on_page_is_the_same_as_login(String name) {
+        cusLogin.nameOnPage(name);
+    }
+    @Then("^user logs out$")
+    public void user_logs_out() {
+        cusLogin.logoutuser();
+    }
 }

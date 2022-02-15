@@ -425,6 +425,9 @@ public class WebCommands extends Web {
         Select dropD = new Select(dropDown);
         dropD.selectByVisibleText(name);
     }
+    public String getPageName() {
+        return Web.getDriver().getTitle();
+    }
 
 
 }

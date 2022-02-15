@@ -14,12 +14,12 @@ public class customersPage extends WebCommands {
     List<WebElement> listBefore = new ArrayList<>();
     List<WebElement> listAfter = new ArrayList<>();
 
-    By costumeButton=By.xpath("//button[@ng-click='showCust()']");
+    By customerButton=By.xpath("//button[@ng-click='showCust()']");
     By listPresent = By.xpath("//tbody/tr");
     By delCustomer = By.xpath("(//button[text()='Delete'])[1]");
 
     public void clickCustom(){
-        clickThis(costumeButton);
+        clickThis(customerButton);
     }
 
     public void delCustomer(){
