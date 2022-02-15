@@ -38,7 +38,7 @@ public class customerLoginSteps {
     public void user_logs_out() {
         cusLogin.logoutuser();
     }
-    @And ("^click deposit, enter an amount '(.+)'$")
+    @And ("^enter an amount '(.+)'$")
     public void click_deposit(int number){
         cusLogin.deposite(number);
     }
@@ -49,5 +49,13 @@ public class customerLoginSteps {
     @Then ("^I verify message '(.+)' is visible on the page$")
     public void verifyMessage(String text){
         cusLogin.message(text);
+    }
+    @And ("^click button '(.+)'$")
+    public void transaction(String name){
+        cusLogin.buttonClick(name);
+    }
+    @Then ("^I verify the last transaction date and amount$")
+    public void verify(){
+        cusLogin.verifyDisplay();
     }
 }
