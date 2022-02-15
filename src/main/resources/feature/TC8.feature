@@ -11,7 +11,7 @@
       And enter an amount '90'
       And click button to submit
       Then I verify message 'Deposit Successful' is visible on the page
-      And click button 'Transaction'
+      And click button 'Transactions'
       Then I verify the last transaction date and amount
       And user logs out
 

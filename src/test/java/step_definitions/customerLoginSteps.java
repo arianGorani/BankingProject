@@ -51,11 +51,22 @@ public class customerLoginSteps {
         cusLogin.message(text);
     }
     @And ("^click button '(.+)'$")
-    public void transaction(String name){
-        cusLogin.buttonClick(name);
+    public void selectBtn(String name){
+        cusLogin.buttonSelect(name);
     }
     @Then ("^I verify the last transaction date and amount$")
     public void verify(){
         cusLogin.verifyDisplay();
     }
+    @And ("^enter string format '(.+)'$")
+    public void enterMsg(String text){
+        cusLogin.enterMSG(text);
+    }
+    @Then ("^Message should popUp, 'Please fill out this field.' take a screenshot$")
+    public void verifyPopUp(){
+        cusLogin.screenshot();
+    }
+
+
+
 }

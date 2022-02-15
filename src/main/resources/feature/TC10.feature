@@ -6,10 +6,11 @@
       When I click on Customer Login
       And I chose 'Harry Potter' customer from Dropdown
       And  I click Login
-      And click withdrawal, enter string format 'AAAA'
-      And click withdraw button
+      And click button 'Withdrawal'
+      And enter string format 'AAAA'
+      And click button to submit
       Then Message should popUp, 'Please fill out this field.' take a screenshot
-      Then user log out
+      Then user logs out
 
       Examples:
         | Browser|
