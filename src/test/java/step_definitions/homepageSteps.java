@@ -18,7 +18,6 @@ public class homepageSteps {
     @Given("^I open application in (.*) (.*) Browser$")
     public void openApplication(String env, String browser){
         hp.openApp(env, browser);
-
     }
     @When("^I click on Bank Manager Login$")
     public void clickButton(){
