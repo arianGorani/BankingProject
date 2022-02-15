@@ -17,6 +17,11 @@ public class customerLoginPage extends WebCommands {
     By selectDropDown = By.xpath("//select[@id='userSelect']");
     By userAccountDropdown = By.xpath("//select[@ng-options='account for account in Accounts']");
     By userNameDisplay = By.xpath("//span[contains(text(),'Hermoine Granger')]");
+    By btnDeposit = By.xpath("//div[@ng-hide='noAccount']//button[2]");
+    By inputAmount = By.xpath("//input[@type='number']");
+    By btnSubmit = By.xpath("//button[@type='submit']");
+    By success = By.xpath("//span[contains(text(),'Deposit Successful')]");
+
 
 
 
@@ -47,6 +52,17 @@ public class customerLoginPage extends WebCommands {
     }
     public void logoutuser(){
         clickThis(btnLogOut);
+    }
+    public void deposite(int number){
+        clickThis(btnDeposit);
+        enterField(inputAmount, number);
+    }
+    public void submit(){
+        clickThis(btnSubmit);
+    }
+    public void message(String text){
+       String msg = Web.getDriver().findElement(success).getText();
+       Assert.assertEquals(msg, text);
     }
 
 

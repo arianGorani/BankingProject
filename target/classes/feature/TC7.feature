@@ -7,12 +7,12 @@ Feature:
     And I chose 'Harry Potter' customer from Dropdown
     And I click Login
     And click deposit, enter an amount '90'
-    And click Deposit button
+    And click button to submit
     Then I verify message 'Deposit Successful' is visible on the page
-    And user log out
+    And user logs out
 
     Examples:
       | Browser|
       | Chrome |
-      | Firefox|
-      | Edge   |
+#      | Firefox|
+#      | Edge   |
