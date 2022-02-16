@@ -1,6 +1,5 @@
-
-  Feature:
-    Scenario Outline: TC-10 User e withdrawal
+Feature:
+    Scenario Outline: TC-10 Verify user cannot write letters on Amount to be withdrawn field
 
       Given I open application in local <Browser> Browser
       When I click on Customer Login

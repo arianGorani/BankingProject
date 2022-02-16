@@ -1,6 +1,5 @@
-
-  Feature:
-    Scenario Outline: TC-9 User make a withdrawal
+Feature:
+    Scenario Outline: TC-9 Verify user can make a withdrawal
 
       Given I open application in local <Browser> Browser
       When I click on Customer Login
