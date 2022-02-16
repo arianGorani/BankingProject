@@ -7,12 +7,13 @@
       And user in customer page, verify page name
       And I chose 'Harry Potter' customer from Dropdown
       And  I click Login
-      And click deposit, enter an amount '90'
-      And click Deposit button
+      And click button 'Deposit'
+      And enter an amount '90'
+      And click button to submit
       Then I verify message 'Deposit Successful' is visible on the page
-      And click Transaction
+      And click button 'Transactions'
       Then I verify the last transaction date and amount
-      And user log out
+      And user logs out
 
       Examples:
         | Browser|
