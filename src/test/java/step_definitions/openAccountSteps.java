@@ -7,8 +7,7 @@ import page_objects.openAccountPage;
 
 public class openAccountSteps {
 //TC2
-    openAccountPage op = new openAccountPage();
-    Web web = new Web();
+    openAccountPage op = new openAccountPage();;
 
     @And("^I click on Open Account$")
     public void i_click_on_Open_Account() {
@@ -32,7 +31,7 @@ public class openAccountSteps {
     @Then("^I verify pop up alert is displayed$")
     public void i_verify_pop_up_alert_is_displayed() {
         op.alertVerification();
-        web.closePage();
+        Web.closePage();
     }
 
 

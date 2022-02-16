@@ -104,12 +104,12 @@ public class Web {
     }
 
 
-        //@After
-        public void closePage () {
+
+        public static void closePage () {
             driver.close();
         }
 
-        //@After
+
         public void quitPages () {
             driver.quit();
         }
