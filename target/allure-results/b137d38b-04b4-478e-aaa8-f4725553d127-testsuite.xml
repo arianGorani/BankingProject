@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="0" stop="1644868698150" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <test-cases>
+        <test-case start="1644868695106" stop="1644868695106" status="passed">
+            <name>Given I open application in local Firefox Browser</name>
+            <title>Given I open application in local Firefox Browser</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1644868696431" stop="1644868696431" status="passed">
+            <name>When I click on Customer Login</name>
+            <title>When I click on Customer Login</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1644868696696" stop="1644868696696" status="passed">
+            <name>And I chose 'Harry Potter' customer from Dropdown</name>
+            <title>And I chose 'Harry Potter' customer from Dropdown</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1644868696939" stop="1644868696939" status="passed">
+            <name>And I click Login</name>
+            <title>And I click Login</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1644868696941" stop="1644868696941" status="pending">
+            <name>And click deposit, enter an amount '90'</name>
+            <title>And click deposit, enter an amount '90'</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1644868696942" stop="1644868696942" status="pending">
+            <name>And click Deposit button</name>
+            <title>And click Deposit button</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1644868696944" stop="1644868696944" status="pending">
+            <name>Then I verify message 'Deposit Successful' is visible on the page</name>
+            <title>Then I verify message 'Deposit Successful' is visible on the page</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1644868696945" stop="1644868696945" status="pending">
+            <name>And user log out</name>
+            <title>And user log out</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1644868698150" stop="1644868698150" status="pending">
+            <name>| Firefox |</name>
+            <title>| Firefox |</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

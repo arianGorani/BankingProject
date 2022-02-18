@@ -3,6 +3,7 @@ package step_definitions;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import driverWrapper.Web;
 import page_objects.customerLoginPage;
 
 public class customerLoginSteps {
@@ -25,6 +26,7 @@ public class customerLoginSteps {
     @Then("^Then I verify they are more than one account under Hermoine Granger account$")
     public void verifyUserHasMoreThanOneAcc(){
         cusLogin.verifyUserHasMoreThanOneAcc();
+        Web.closePage();
     }
     @When("^user in customer page, verify page name$")
     public void user_in_customer_page_verify_page_name() {
@@ -37,6 +39,8 @@ public class customerLoginSteps {
     @Then("^user logs out$")
     public void user_logs_out() {
         cusLogin.logoutuser();
+        Web.closePage();
+
     }
     @And ("^enter an amount '(.+)'$")
     public void click_deposit(int number){

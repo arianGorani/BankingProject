@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="0" stop="1644868710770" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <test-cases>
+        <test-case start="1644868705783" stop="1644868705783" status="passed">
+            <name>Given I open application in local Chrome Browser</name>
+            <title>Given I open application in local Chrome Browser</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1644868705956" stop="1644868705956" status="passed">
+            <name>When I click on Bank Manager Login</name>
+            <title>When I click on Bank Manager Login</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1644868706191" stop="1644868706191" status="passed">
+            <name>And I click on Add Customer</name>
+            <title>And I click on Add Customer</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1644868706736" stop="1644868706736" status="passed">
+            <name>* I type 'Johnny' in first name field</name>
+            <title>* I type 'Johnny' in first name field</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1644868706843" stop="1644868706843" status="passed">
+            <name>* I type 'Bravo' in last name field</name>
+            <title>* I type 'Bravo' in last name field</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1644868706940" stop="1644868706940" status="passed">
+            <name>* I type '10123' in Post Code field</name>
+            <title>* I type '10123' in Post Code field</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1644868707009" stop="1644868707009" status="passed">
+            <name>* I click on Add Costumer button</name>
+            <title>* I click on Add Costumer button</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1644868710135" stop="1644868710135" status="passed">
+            <name>Then I verify pop up alert is displayed with message 'Customer added successfully with customer id :6'</name>
+            <title>Then I verify pop up alert is displayed with message 'Customer added successfully with customer id :6'</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

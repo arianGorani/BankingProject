@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="0" stop="1644868646394" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <test-cases>
+        <test-case start="1644868643635" stop="1644868643635" status="passed">
+            <name>Given I open application in local Firefox Browser</name>
+            <title>Given I open application in local Firefox Browser</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1644868644819" stop="1644868644819" status="passed">
+            <name>When I click on Bank Manager Login</name>
+            <title>When I click on Bank Manager Login</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1644868644972" stop="1644868644973" status="passed">
+            <name>And I click on Customer</name>
+            <title>And I click on Customer</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1644868645242" stop="1644868645242" status="passed">
+            <name>And I click delete on one of the costumers</name>
+            <title>And I click delete on one of the costumers</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1644868646318" stop="1644868646318" status="passed">
+            <name>Then I verify the customer is deleted</name>
+            <title>Then I verify the customer is deleted</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

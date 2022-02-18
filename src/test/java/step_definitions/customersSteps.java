@@ -8,7 +8,7 @@ import page_objects.customersPage;
 public class customersSteps {
 
     customersPage cusPage = new customersPage();
-    Web web = new Web();
+
 
     @And("^I click on Customer$")
     public void i_click_on_Customer() {
@@ -22,7 +22,7 @@ public class customersSteps {
     @Then("^I verify the customer is deleted$")
     public void i_verify_the_customer_is_deleted() {
         cusPage.verifyCustomerIsDeleted();
-        web.closePage();
+        Web.closePage();
     }
 
 

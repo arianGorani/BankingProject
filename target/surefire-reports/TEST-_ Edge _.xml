@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="| Edge |" time="0.803" tests="144" errors="14" skipped="47" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_321\jre\bin"/>
+    <property name="java.vm.version" value="25.321-b07"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\arian\OneDrive\Desktop\TECHNOSOFT_ACADEMY\BankingProject"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\arian\OneDrive\Desktop\TECHNOSOFT_ACADEMY\BankingProject"/>
+    <property name="java.runtime.version" value="1.8.0_321-b07"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_321\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\arian\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.8.1\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_321\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_321\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files (x86)\Brackets\command;C:\apache-maven-3.8.1\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\apache-maven-3.8.1\bin;C:\Program Files\Java\jdk1.8.0_321\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\arian\AppData\Local\Microsoft\WindowsApps;C:\Users\arian\AppData\Roaming\Dashlane\5.10.0.18444\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\arian\AppData\Roaming\Dashlane\5.10.0.18444\ucrt;C:\Users\arian\AppData\Local\Microsoft\WindowsApps;C:\Users\arian\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\arian\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm 2021.3.1\bin;;."/>
+    <property name="maven.conf" value="C:\apache-maven-3.8.1\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.8.1\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\arian"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="arian"/>
+    <property name="java.class.path" value="C:\apache-maven-3.8.1\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_321\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_321"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_321\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_321\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_321\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apache-maven-3.8.1\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given I open application in local Chrome Browser" classname="| Chrome |" time="0.052"/>
+  <testcase name="Given I open application in local Chrome Browser" classname="| Chrome |" time="0.002"/>
+  <testcase name="Given I open application in local Chrome Browser" classname="| Chrome |" time="0.004"/>
+  <testcase name="Given I open application in local Chrome Browser" classname="| Chrome |" time="0"/>
+  <testcase name="Given I open application in local Chrome Browser" classname="| Chrome |" time="0.002"/>
+  <testcase name="Given I open application in local Chrome Browser" classname="| Chrome |" time="0.002"/>
+  <testcase name="When I click on Bank Manager Login" classname="| Chrome |" time="0"/>
+  <testcase name="When I click on Bank Manager Login" classname="| Chrome |" time="0"/>
+  <testcase name="When I click on Bank Manager Login" classname="| Chrome |" time="0.001"/>
+  <testcase name="And I click on Open Account" classname="| Chrome |" time="0"/>
+  <testcase name="And I chose &apos;Harry Potter&apos; on dropdown Customer Name" classname="| Chrome |" time="0"/>
+  <testcase name="And I chose &apos;Dollar&apos; on dropdown Currency" classname="| Chrome |" time="0"/>
+  <testcase name="And I click the Process button" classname="| Chrome |" time="0"/>
+  <testcase name="Then I verify pop up alert is displayed" classname="| Chrome |" time="0"/>
+  <testcase name="| Chrome |" classname="| Chrome |" time="0.612"/>
+  <testcase name="| Chrome |" classname="| Chrome |" time="0.606"/>
+  <testcase name="| Chrome |" classname="| Chrome |" time="0.693"/>
+  <testcase name="| Chrome |" classname="| Chrome |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="| Chrome |" classname="| Chrome |" time="0.695"/>
+  <testcase name="| Chrome |" classname="| Chrome |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="| Chrome |" classname="| Chrome |" time="0.701"/>
+  <testcase name="| Chrome |" classname="| Chrome |" time="0.635"/>
+  <testcase name="Given I open application in local Firefox Browser" classname="| Firefox |" time="0.001"/>
+  <testcase name="Given I open application in local Firefox Browser" classname="| Firefox |" time="0.001"/>
+  <testcase name="Given I open application in local Firefox Browser" classname="| Firefox |" time="0"/>
+  <testcase name="Given I open application in local Firefox Browser" classname="| Firefox |" time="0.001"/>
+  <testcase name="Given I open application in local Firefox Browser" classname="| Firefox |" time="0"/>
+  <testcase name="Given I open application in local Firefox Browser" classname="| Firefox |" time="0.001"/>
+  <testcase name="When I click on Bank Manager Login" classname="| Firefox |" time="0"/>
+  <testcase name="When I click on Bank Manager Login" classname="| Firefox |" time="0.001"/>
+  <testcase name="When I click on Bank Manager Login" classname="| Firefox |" time="0"/>
+  <testcase name="And I click on Open Account" classname="| Firefox |" time="0"/>
+  <testcase name="And I chose &apos;Harry Potter&apos; on dropdown Customer Name" classname="| Firefox |" time="0.001"/>
+  <testcase name="And I chose &apos;Dollar&apos; on dropdown Currency" classname="| Firefox |" time="0"/>
+  <testcase name="And I click the Process button" classname="| Firefox |" time="0.001"/>
+  <testcase name="Then I verify pop up alert is displayed" classname="| Firefox |" time="0.001"/>
+  <testcase name="| Firefox |" classname="| Firefox |" time="0.095">
+    <error message="Tried to run command without establishing a connection&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ARIAN-GORANI&apos;, ip: &apos;192.168.1.9&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220126154723, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 11272, moz:profile: C:\Users\arian\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 61aa6453-dd8a-47ac-8fa0-210fe986c17d" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARIAN-GORANI', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220126154723, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 11272, moz:profile: C:\Users\arian\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 61aa6453-dd8a-47ac-8fa0-210fe986c17d
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+	at driverWrapper.Web.quitPages(Web.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:212)
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:108)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:78)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:54)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:144)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</error>
+  </testcase>
+  <testcase name="| Firefox |" classname="| Firefox |" time="0.076">
+    <error message="Tried to run command without establishing a connection&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ARIAN-GORANI&apos;, ip: &apos;192.168.1.9&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220126154723, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 22192, moz:profile: C:\Users\arian\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 3cdf6143-4ba4-4e14-8572-6da30d82a135" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARIAN-GORANI', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220126154723, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 22192, moz:profile: C:\Users\arian\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3cdf6143-4ba4-4e14-8572-6da30d82a135
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+	at driverWrapper.Web.quitPages(Web.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:212)
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:108)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:78)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:54)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:144)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</error>
+  </testcase>
+  <testcase name="| Firefox |" classname="| Firefox |" time="0.01">
+    <error message="Unable to locate element: //select[@ng-options=&apos;account for account in Accounts&apos;]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ARIAN-GORANI&apos;, ip: &apos;192.168.1.9&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220126154723, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 20456, moz:profile: C:\Users\arian\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 0da8f72d-e3fe-4c2e-bf62-10b0d79e19ed&#10;*** Element info: {Using=xpath, value=//select[@ng-options=&apos;account for account in Accounts&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: //select[@ng-options='account for account in Accounts']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARIAN-GORANI', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220126154723, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 20456, moz:profile: C:\Users\arian\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0da8f72d-e3fe-4c2e-bf62-10b0d79e19ed
+*** Element info: {Using=xpath, value=//select[@ng-options='account for account in Accounts']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at page_objects.customerLoginPage.verifyUserHasMoreThanOneAcc(customerLoginPage.java:34)
+	at step_definitions.customerLoginSteps.verifyUserHasMoreThanOneAcc(customerLoginSteps.java:27)
+	at ✽.Then Then I verify they are more than one account under Hermoine Granger account(TC5.feature:9)
+</error>
+  </testcase>
+  <testcase name="| Firefox |" classname="| Firefox |" time="0">
+    <skipped/>
+    <system-err><![CDATA[1644868680180	Marionette	INFO	Stopped listening on port 11832
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+]]></system-err>
+  </testcase>
+  <testcase name="| Firefox |" classname="| Firefox |" time="1.017"/>
+  <testcase name="| Firefox |" classname="| Firefox |" time="0">
+    <skipped/>
+    <system-err><![CDATA[1644868696951	Marionette	INFO	Stopped listening on port 11959
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+]]></system-err>
+  </testcase>
+  <testcase name="| Firefox |" classname="| Firefox |" time="1.212"/>
+  <testcase name="| Firefox |" classname="| Firefox |" time="0.002">
+    <error message="Unable to locate element: //input[@placeholder=&apos;First Name&apos;]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ARIAN-GORANI&apos;, ip: &apos;192.168.1.9&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220126154723, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 13184, moz:profile: C:\Users\arian\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: b9d5ce29-76b1-452e-900d-63a9f3b5aa18&#10;*** Element info: {Using=xpath, value=//input[@placeholder=&apos;First Name&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@placeholder='First Name']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARIAN-GORANI', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220126154723, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 13184, moz:profile: C:\Users\arian\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b9d5ce29-76b1-452e-900d-63a9f3b5aa18
+*** Element info: {Using=xpath, value=//input[@placeholder='First Name']}
+	at sun.reflect.GeneratedConstructorAccessor30.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at framework.WebCommands.enterField(WebCommands.java:404)
+	at page_objects.homepagePage.fillForm(homepagePage.java:34)
+	at step_definitions.homepageSteps.fillName(homepageSteps.java:33)
+	at ✽.* I type 'Johnny' in first name field(popUpAlertIsDisplayedWithMessage.feature:10)
+</error>
+  </testcase>
+  <testcase name="Given I open application in local Edge Browser" classname="| Edge |" time="0.003"/>
+  <testcase name="Given I open application in local Edge Browser" classname="| Edge |" time="0.002"/>
+  <testcase name="Given I open application in local Edge Browser" classname="| Edge |" time="0.003"/>
+  <testcase name="Given I open application in local Edge Browser" classname="| Edge |" time="0"/>
+  <testcase name="Given I open application in local Edge Browser" classname="| Edge |" time="0.001"/>
+  <testcase name="Given I open application in local Edge Browser" classname="| Edge |" time="0"/>
+  <testcase name="When I click on Bank Manager Login" classname="| Edge |" time="0"/>
+  <testcase name="When I click on Bank Manager Login" classname="| Edge |" time="0"/>
+  <testcase name="When I click on Bank Manager Login" classname="| Edge |" time="0.002"/>
+  <testcase name="And I click on Open Account" classname="| Edge |" time="0"/>
+  <testcase name="And I chose &apos;Harry Potter&apos; on dropdown Customer Name" classname="| Edge |" time="0.003">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//select[@id=&apos;userSelect&apos;]&quot;}&#10;  (Session info: MicrosoftEdge=98.0.1108.50)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ARIAN-GORANI&apos;, ip: &apos;192.168.1.9&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 98.0.1108.50, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:11514}, msedge: {msedgedriverVersion: 98.0.1108.50 (4203d3deac4b8..., userDataDir: C:\Users\arian\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 8b7791bbc2e8be9b7623d1b3f9db9919&#10;*** Element info: {Using=xpath, value=//select[@id=&apos;userSelect&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='userSelect']"}
+  (Session info: MicrosoftEdge=98.0.1108.50)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARIAN-GORANI', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 98.0.1108.50, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:11514}, msedge: {msedgedriverVersion: 98.0.1108.50 (4203d3deac4b8..., userDataDir: C:\Users\arian\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8b7791bbc2e8be9b7623d1b3f9db9919
+*** Element info: {Using=xpath, value=//select[@id='userSelect']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at framework.WebCommands.selectDropDown(WebCommands.java:424)
+	at page_objects.openAccountPage.selectName(openAccountPage.java:26)
+	at step_definitions.openAccountSteps.i_chose_Harry_Potter_on_dropdown_Customer_Name(openAccountSteps.java:19)
+	at ✽.And I chose 'Harry Potter' on dropdown Customer Name(TC2.feature:8)
+</error>
+  </testcase>
+  <testcase name="| Edge |" classname="| Edge |" time="0.005">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//select[@id=&apos;userSelect&apos;]&quot;}&#10;  (Session info: MicrosoftEdge=98.0.1108.50)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ARIAN-GORANI&apos;, ip: &apos;192.168.1.9&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 98.0.1108.50, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:11514}, msedge: {msedgedriverVersion: 98.0.1108.50 (4203d3deac4b8..., userDataDir: C:\Users\arian\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 8b7791bbc2e8be9b7623d1b3f9db9919&#10;*** Element info: {Using=xpath, value=//select[@id=&apos;userSelect&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='userSelect']"}
+  (Session info: MicrosoftEdge=98.0.1108.50)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARIAN-GORANI', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 98.0.1108.50, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:11514}, msedge: {msedgedriverVersion: 98.0.1108.50 (4203d3deac4b8..., userDataDir: C:\Users\arian\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8b7791bbc2e8be9b7623d1b3f9db9919
+*** Element info: {Using=xpath, value=//select[@id='userSelect']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at framework.WebCommands.selectDropDown(WebCommands.java:424)
+	at page_objects.openAccountPage.selectName(openAccountPage.java:26)
+	at step_definitions.openAccountSteps.i_chose_Harry_Potter_on_dropdown_Customer_Name(openAccountSteps.java:19)
+	at ✽.And I chose 'Harry Potter' on dropdown Customer Name(TC2.feature:8)
+</error>
+  </testcase>
+  <testcase name="| Edge |" classname="| Edge |" time="0.701"/>
+  <testcase name="| Edge |" classname="| Edge |" time="0.002">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//select[@id=&apos;userSelect&apos;]&quot;}&#10;  (Session info: MicrosoftEdge=98.0.1108.50)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ARIAN-GORANI&apos;, ip: &apos;192.168.1.9&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 98.0.1108.50, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:11782}, msedge: {msedgedriverVersion: 98.0.1108.50 (4203d3deac4b8..., userDataDir: C:\Users\arian\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 84cd3abb355d93d39a19936f296c990b&#10;*** Element info: {Using=xpath, value=//select[@id=&apos;userSelect&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='userSelect']"}
+  (Session info: MicrosoftEdge=98.0.1108.50)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARIAN-GORANI', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 98.0.1108.50, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:11782}, msedge: {msedgedriverVersion: 98.0.1108.50 (4203d3deac4b8..., userDataDir: C:\Users\arian\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 84cd3abb355d93d39a19936f296c990b
+*** Element info: {Using=xpath, value=//select[@id='userSelect']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at framework.WebCommands.selectDropDown(WebCommands.java:424)
+	at page_objects.customerLoginPage.selectName(customerLoginPage.java:30)
+	at step_definitions.customerLoginSteps.findName(customerLoginSteps.java:18)
+	at ✽.And I chose 'Hermoine Granger' customer from Dropdown(TC5.feature:7)
+</error>
+  </testcase>
+  <testcase name="| Edge |" classname="| Edge |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="| Edge |" classname="| Edge |" time="0.759"/>
+  <testcase name="| Edge |" classname="| Edge |" time="0.005">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//select[@id=&apos;userSelect&apos;]&quot;}&#10;  (Session info: MicrosoftEdge=98.0.1108.50)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ARIAN-GORANI&apos;, ip: &apos;192.168.1.9&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 98.0.1108.50, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:12028}, msedge: {msedgedriverVersion: 98.0.1108.50 (4203d3deac4b8..., userDataDir: C:\Users\arian\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 7282053859beed065509e48bfb62ace3&#10;*** Element info: {Using=xpath, value=//select[@id=&apos;userSelect&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='userSelect']"}
+  (Session info: MicrosoftEdge=98.0.1108.50)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARIAN-GORANI', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 98.0.1108.50, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:12028}, msedge: {msedgedriverVersion: 98.0.1108.50 (4203d3deac4b8..., userDataDir: C:\Users\arian\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7282053859beed065509e48bfb62ace3
+*** Element info: {Using=xpath, value=//select[@id='userSelect']}
+	at sun.reflect.GeneratedConstructorAccessor30.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at framework.WebCommands.selectDropDown(WebCommands.java:424)
+	at page_objects.customerLoginPage.selectName(customerLoginPage.java:30)
+	at step_definitions.customerLoginSteps.findName(customerLoginSteps.java:18)
+	at ✽.And I chose 'Harry Potter' customer from Dropdown(TC7.feature:7)
+</error>
+  </testcase>
+  <testcase name="| Edge |" classname="| Edge |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="| Edge |" classname="| Edge |" time="0.001">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@placeholder=&apos;First Name&apos;]&quot;}&#10;  (Session info: MicrosoftEdge=98.0.1108.50)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ARIAN-GORANI&apos;, ip: &apos;192.168.1.9&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 98.0.1108.50, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:12153}, msedge: {msedgedriverVersion: 98.0.1108.50 (4203d3deac4b8..., userDataDir: C:\Users\arian\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4417e504c5df742724a2a2174e2047eb&#10;*** Element info: {Using=xpath, value=//input[@placeholder=&apos;First Name&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='First Name']"}
+  (Session info: MicrosoftEdge=98.0.1108.50)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARIAN-GORANI', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 98.0.1108.50, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:12153}, msedge: {msedgedriverVersion: 98.0.1108.50 (4203d3deac4b8..., userDataDir: C:\Users\arian\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4417e504c5df742724a2a2174e2047eb
+*** Element info: {Using=xpath, value=//input[@placeholder='First Name']}
+	at sun.reflect.GeneratedConstructorAccessor30.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at framework.WebCommands.enterField(WebCommands.java:404)
+	at page_objects.homepagePage.fillForm(homepagePage.java:34)
+	at step_definitions.homepageSteps.fillName(homepageSteps.java:33)
+	at ✽.* I type 'Johnny' in first name field(popUpAlertIsDisplayedWithMessage.feature:10)
+</error>
+  </testcase>
+  <testcase name="And I chose &apos;Dollar&apos; on dropdown Currency" classname="| Edge |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click the Process button" classname="| Edge |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I verify pop up alert is displayed" classname="| Edge |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click on Customer" classname="| Chrome |" time="0.001"/>
+  <testcase name="And I click delete on one of the costumers" classname="| Chrome |" time="0"/>
+  <testcase name="Then I verify the customer is deleted" classname="| Chrome |" time="0.001"/>
+  <testcase name="And I click on Customer" classname="| Firefox |" time="0.001"/>
+  <testcase name="And I click delete on one of the costumers" classname="| Firefox |" time="0.001"/>
+  <testcase name="Then I verify the customer is deleted" classname="| Firefox |" time="0.001"/>
+  <testcase name="And I click on Customer" classname="| Edge |" time="0.001"/>
+  <testcase name="And I click delete on one of the costumers" classname="| Edge |" time="0.001"/>
+  <testcase name="Then I verify the customer is deleted" classname="| Edge |" time="0.001"/>
+  <testcase name="When I click on Customer Login" classname="| Chrome |" time="0"/>
+  <testcase name="When I click on Customer Login" classname="| Chrome |" time="0.002"/>
+  <testcase name="When I click on Customer Login" classname="| Chrome |" time="0"/>
+  <testcase name="And I chose &apos;Hermoine Granger&apos; customer from Dropdown" classname="| Chrome |" time="0"/>
+  <testcase name="And I click Login" classname="| Chrome |" time="0.001"/>
+  <testcase name="And I click Login" classname="| Chrome |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click Login" classname="| Chrome |" time="0"/>
+  <testcase name="Then Then I verify they are more than one account under Hermoine Granger account" classname="| Chrome |" time="0"/>
+  <testcase name="When I click on Customer Login" classname="| Firefox |" time="0"/>
+  <testcase name="When I click on Customer Login" classname="| Firefox |" time="0"/>
+  <testcase name="When I click on Customer Login" classname="| Firefox |" time="0.001"/>
+  <testcase name="And I chose &apos;Hermoine Granger&apos; customer from Dropdown" classname="| Firefox |" time="0.002"/>
+  <testcase name="And I click Login" classname="| Firefox |" time="0.002"/>
+  <testcase name="And I click Login" classname="| Firefox |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click Login" classname="| Firefox |" time="0.001"/>
+  <testcase name="Then Then I verify they are more than one account under Hermoine Granger account" classname="| Firefox |" time="0.007">
+    <error message="Unable to locate element: //select[@ng-options=&apos;account for account in Accounts&apos;]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ARIAN-GORANI&apos;, ip: &apos;192.168.1.9&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220126154723, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 20456, moz:profile: C:\Users\arian\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 0da8f72d-e3fe-4c2e-bf62-10b0d79e19ed&#10;*** Element info: {Using=xpath, value=//select[@ng-options=&apos;account for account in Accounts&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: //select[@ng-options='account for account in Accounts']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARIAN-GORANI', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220126154723, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 20456, moz:profile: C:\Users\arian\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0da8f72d-e3fe-4c2e-bf62-10b0d79e19ed
+*** Element info: {Using=xpath, value=//select[@ng-options='account for account in Accounts']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at page_objects.customerLoginPage.verifyUserHasMoreThanOneAcc(customerLoginPage.java:34)
+	at step_definitions.customerLoginSteps.verifyUserHasMoreThanOneAcc(customerLoginSteps.java:27)
+	at ✽.Then Then I verify they are more than one account under Hermoine Granger account(TC5.feature:9)
+</error>
+  </testcase>
+  <testcase name="When I click on Customer Login" classname="| Edge |" time="0"/>
+  <testcase name="When I click on Customer Login" classname="| Edge |" time="0.001"/>
+  <testcase name="When I click on Customer Login" classname="| Edge |" time="0.001"/>
+  <testcase name="And I chose &apos;Hermoine Granger&apos; customer from Dropdown" classname="| Edge |" time="0.001">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//select[@id=&apos;userSelect&apos;]&quot;}&#10;  (Session info: MicrosoftEdge=98.0.1108.50)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ARIAN-GORANI&apos;, ip: &apos;192.168.1.9&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 98.0.1108.50, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:11782}, msedge: {msedgedriverVersion: 98.0.1108.50 (4203d3deac4b8..., userDataDir: C:\Users\arian\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 84cd3abb355d93d39a19936f296c990b&#10;*** Element info: {Using=xpath, value=//select[@id=&apos;userSelect&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='userSelect']"}
+  (Session info: MicrosoftEdge=98.0.1108.50)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARIAN-GORANI', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 98.0.1108.50, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:11782}, msedge: {msedgedriverVersion: 98.0.1108.50 (4203d3deac4b8..., userDataDir: C:\Users\arian\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 84cd3abb355d93d39a19936f296c990b
+*** Element info: {Using=xpath, value=//select[@id='userSelect']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at framework.WebCommands.selectDropDown(WebCommands.java:424)
+	at page_objects.customerLoginPage.selectName(customerLoginPage.java:30)
+	at step_definitions.customerLoginSteps.findName(customerLoginSteps.java:18)
+	at ✽.And I chose 'Hermoine Granger' customer from Dropdown(TC5.feature:7)
+</error>
+  </testcase>
+  <testcase name="And I click Login" classname="| Edge |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click Login" classname="| Edge |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click Login" classname="| Edge |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then Then I verify they are more than one account under Hermoine Granger account" classname="| Edge |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And user in customer page, verify page name" classname="| Chrome |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I chose &apos;Harry Potter&apos; customer from Dropdown" classname="| Chrome |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I chose &apos;Harry Potter&apos; customer from Dropdown" classname="| Chrome |" time="0.001"/>
+  <testcase name="Then I verify name on-page is the same as login" classname="| Chrome |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then user logs out" classname="| Chrome |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And user in customer page, verify page name" classname="| Firefox |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I chose &apos;Harry Potter&apos; customer from Dropdown" classname="| Firefox |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I chose &apos;Harry Potter&apos; customer from Dropdown" classname="| Firefox |" time="0.002"/>
+  <testcase name="Then I verify name on-page is the same as login" classname="| Firefox |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then user logs out" classname="| Firefox |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And user in customer page, verify page name" classname="| Edge |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I chose &apos;Harry Potter&apos; customer from Dropdown" classname="| Edge |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I chose &apos;Harry Potter&apos; customer from Dropdown" classname="| Edge |" time="0.003">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//select[@id=&apos;userSelect&apos;]&quot;}&#10;  (Session info: MicrosoftEdge=98.0.1108.50)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ARIAN-GORANI&apos;, ip: &apos;192.168.1.9&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 98.0.1108.50, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:12028}, msedge: {msedgedriverVersion: 98.0.1108.50 (4203d3deac4b8..., userDataDir: C:\Users\arian\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 7282053859beed065509e48bfb62ace3&#10;*** Element info: {Using=xpath, value=//select[@id=&apos;userSelect&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='userSelect']"}
+  (Session info: MicrosoftEdge=98.0.1108.50)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARIAN-GORANI', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 98.0.1108.50, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:12028}, msedge: {msedgedriverVersion: 98.0.1108.50 (4203d3deac4b8..., userDataDir: C:\Users\arian\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7282053859beed065509e48bfb62ace3
+*** Element info: {Using=xpath, value=//select[@id='userSelect']}
+	at sun.reflect.GeneratedConstructorAccessor30.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at framework.WebCommands.selectDropDown(WebCommands.java:424)
+	at page_objects.customerLoginPage.selectName(customerLoginPage.java:30)
+	at step_definitions.customerLoginSteps.findName(customerLoginSteps.java:18)
+	at ✽.And I chose 'Harry Potter' customer from Dropdown(TC7.feature:7)
+</error>
+  </testcase>
+  <testcase name="Then I verify name on-page is the same as login" classname="| Edge |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then user logs out" classname="| Edge |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And click deposit, enter an amount &apos;90&apos;" classname="| Chrome |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And click Deposit button" classname="| Chrome |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I verify message &apos;Deposit Successful&apos; is visible on the page" classname="| Chrome |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And user log out" classname="| Chrome |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And click deposit, enter an amount &apos;90&apos;" classname="| Firefox |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And click Deposit button" classname="| Firefox |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I verify message &apos;Deposit Successful&apos; is visible on the page" classname="| Firefox |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And user log out" classname="| Firefox |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And click deposit, enter an amount &apos;90&apos;" classname="| Edge |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And click Deposit button" classname="| Edge |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I verify message &apos;Deposit Successful&apos; is visible on the page" classname="| Edge |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And user log out" classname="| Edge |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click on Add Customer" classname="| Chrome |" time="0.001"/>
+  <testcase name="* I type &apos;Johnny&apos; in first name field" classname="| Chrome |" time="0"/>
+  <testcase name="* I type &apos;Bravo&apos; in last name field" classname="| Chrome |" time="0.001"/>
+  <testcase name="* I type &apos;10123&apos; in Post Code field" classname="| Chrome |" time="0.001"/>
+  <testcase name="* I click on Add Costumer button" classname="| Chrome |" time="0.001"/>
+  <testcase name="Then I verify pop up alert is displayed with message &apos;Customer added successfully with customer id :6&apos;" classname="| Chrome |" time="0"/>
+  <testcase name="And I click on Add Customer" classname="| Firefox |" time="0.001"/>
+  <testcase name="* I type &apos;Johnny&apos; in first name field" classname="| Firefox |" time="0.001">
+    <error message="Unable to locate element: //input[@placeholder=&apos;First Name&apos;]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ARIAN-GORANI&apos;, ip: &apos;192.168.1.9&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220126154723, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 13184, moz:profile: C:\Users\arian\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: b9d5ce29-76b1-452e-900d-63a9f3b5aa18&#10;*** Element info: {Using=xpath, value=//input[@placeholder=&apos;First Name&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@placeholder='First Name']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARIAN-GORANI', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220126154723, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 13184, moz:profile: C:\Users\arian\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b9d5ce29-76b1-452e-900d-63a9f3b5aa18
+*** Element info: {Using=xpath, value=//input[@placeholder='First Name']}
+	at sun.reflect.GeneratedConstructorAccessor30.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at framework.WebCommands.enterField(WebCommands.java:404)
+	at page_objects.homepagePage.fillForm(homepagePage.java:34)
+	at step_definitions.homepageSteps.fillName(homepageSteps.java:33)
+	at ✽.* I type 'Johnny' in first name field(popUpAlertIsDisplayedWithMessage.feature:10)
+</error>
+  </testcase>
+  <testcase name="* I type &apos;Bravo&apos; in last name field" classname="| Firefox |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="* I type &apos;10123&apos; in Post Code field" classname="| Firefox |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="* I click on Add Costumer button" classname="| Firefox |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I verify pop up alert is displayed with message &apos;Customer added successfully with customer id :6&apos;" classname="| Firefox |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I click on Add Customer" classname="| Edge |" time="0.001"/>
+  <testcase name="* I type &apos;Johnny&apos; in first name field" classname="| Edge |" time="0.001">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@placeholder=&apos;First Name&apos;]&quot;}&#10;  (Session info: MicrosoftEdge=98.0.1108.50)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ARIAN-GORANI&apos;, ip: &apos;192.168.1.9&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 98.0.1108.50, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:12153}, msedge: {msedgedriverVersion: 98.0.1108.50 (4203d3deac4b8..., userDataDir: C:\Users\arian\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4417e504c5df742724a2a2174e2047eb&#10;*** Element info: {Using=xpath, value=//input[@placeholder=&apos;First Name&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='First Name']"}
+  (Session info: MicrosoftEdge=98.0.1108.50)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARIAN-GORANI', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 98.0.1108.50, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:12153}, msedge: {msedgedriverVersion: 98.0.1108.50 (4203d3deac4b8..., userDataDir: C:\Users\arian\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4417e504c5df742724a2a2174e2047eb
+*** Element info: {Using=xpath, value=//input[@placeholder='First Name']}
+	at sun.reflect.GeneratedConstructorAccessor30.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at framework.WebCommands.enterField(WebCommands.java:404)
+	at page_objects.homepagePage.fillForm(homepagePage.java:34)
+	at step_definitions.homepageSteps.fillName(homepageSteps.java:33)
+	at ✽.* I type 'Johnny' in first name field(popUpAlertIsDisplayedWithMessage.feature:10)
+</error>
+  </testcase>
+  <testcase name="* I type &apos;Bravo&apos; in last name field" classname="| Edge |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="* I type &apos;10123&apos; in Post Code field" classname="| Edge |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="* I click on Add Costumer button" classname="| Edge |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I verify pop up alert is displayed with message &apos;Customer added successfully with customer id :6&apos;" classname="| Edge |" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

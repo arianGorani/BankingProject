@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1644868618438" stop="1644868620099" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>TC-2 Verify pop up an alert is displayed when the user opens account | Chrome |</name>
+    <title>TC-2 Verify pop up an alert is displayed when the user opens account | Chrome |</title>
+    <test-cases>
+        <test-case start="1644868618454" stop="1644868618457" status="passed">
+            <name>Given I open application in local Chrome Browser</name>
+            <title>Given I open application in local Chrome Browser</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1644868618730" stop="1644868618730" status="passed">
+            <name>When I click on Bank Manager Login</name>
+            <title>When I click on Bank Manager Login</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1644868618923" stop="1644868618923" status="passed">
+            <name>And I click on Open Account</name>
+            <title>And I click on Open Account</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1644868619171" stop="1644868619171" status="passed">
+            <name>And I chose 'Harry Potter' on dropdown Customer Name</name>
+            <title>And I chose 'Harry Potter' on dropdown Customer Name</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1644868619294" stop="1644868619294" status="passed">
+            <name>And I chose 'Dollar' on dropdown Currency</name>
+            <title>And I chose 'Dollar' on dropdown Currency</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1644868619356" stop="1644868619356" status="passed">
+            <name>And I click the Process button</name>
+            <title>And I click the Process button</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1644868619483" stop="1644868619483" status="passed">
+            <name>Then I verify pop up alert is displayed</name>
+            <title>Then I verify pop up alert is displayed</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="TC-2 Verify pop up an alert is displayed when the user opens account | Chrome |"/>
+        <label name="feature" value="PopUp verification"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

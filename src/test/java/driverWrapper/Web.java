@@ -3,15 +3,13 @@ package driverWrapper;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import utils.TestConstant;
-import cucumber.api.java.After;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.Locale;
+
 import java.util.concurrent.TimeUnit;
 
 public class Web {
@@ -106,12 +104,12 @@ public class Web {
     }
 
 
-        //@After
-        public void closePage () {
+
+        public static void closePage () {
             driver.close();
         }
 
-        @After
+
         public void quitPages () {
             driver.quit();
         }
