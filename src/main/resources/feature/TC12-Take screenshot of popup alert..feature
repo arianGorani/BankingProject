@@ -14,7 +14,6 @@ Feature: TC-12
     Then PopUp is displayed, Dublicate value
 
 
-
     Examples:
       | Browser|
       | Chrome |

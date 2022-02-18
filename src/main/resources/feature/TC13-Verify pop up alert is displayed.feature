@@ -1,3 +1,4 @@
+@regression
 Feature:
   Scenario Outline: Verify pop up alert is displayed with message "Please fill out this field" when you do not enter last name
 
@@ -9,7 +10,6 @@ Feature:
     And I type 10465 in the Post Code field
     And I click on Add Costumer button
     Then PopUp is displayed with message Please Fill out this field take screenshot
-
 
     Examples:
       | Browser|
