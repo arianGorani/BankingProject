@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
         glue = {"step_definitions","driverWrapper"},
 
-        tags = {"@regression"},
+        tags = {"@functional"},
 
         plugin = {"pretty", "html:Reports/Default"},
 

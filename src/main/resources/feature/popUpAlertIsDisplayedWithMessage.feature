@@ -2,7 +2,6 @@
 
 Feature: TC-1 Pop up alert is displayed with message
 
-
   Scenario Outline: Verify pop up alert is displayed with message "Customer added successfully with customer id :" when user Add Customer
     Given I open application in local <Browser> Browser
     When I click on Bank Manager Login
