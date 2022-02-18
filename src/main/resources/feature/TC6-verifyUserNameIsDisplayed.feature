@@ -1,5 +1,5 @@
 @regression
-Feature:
+Feature: TC-6
   Scenario Outline: TC-6 Verify the user name is displayed
 
     Given I open application in local <Browser> Browser

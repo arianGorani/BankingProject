@@ -16,6 +16,6 @@ Feature: TC-1 Pop up alert is displayed with message
     Examples:
       | Browser|
       | Chrome |
-      | Firefox|
-      | Edge   |
+#      | Firefox|
+#      | Edge   |
 

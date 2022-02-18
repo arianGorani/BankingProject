@@ -13,5 +13,5 @@ Feature:
       Examples:
         | Browser|
         | Chrome |
-        | Firefox|
-        | Edge   |
+#        | Firefox|
+#        | Edge   |

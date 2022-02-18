@@ -102,13 +102,13 @@ public class customerLoginPage extends WebCommands {
         type(inputAmount, text);
     }
     public void screenshot(){
-
-            TakesScreenshot sk =(TakesScreenshot)Web.getDriver();
-            File scrShot = sk.getScreenshotAs(OutputType.FILE);
-            try {
-                FileUtils.copyFile(scrShot, new File("./screenShots/img.jpg"));
-            }catch (IOException e){
-                e.printStackTrace();
-            }
+        takeScreenshot();
+//            TakesScreenshot sk =(TakesScreenshot)Web.getDriver();
+//            File scrShot = sk.getScreenshotAs(OutputType.FILE);
+//            try {
+//                FileUtils.copyFile(scrShot, new File("./screenShots/img.jpg"));
+//            }catch (IOException e){
+//                e.printStackTrace();
+//            }
     }
 }

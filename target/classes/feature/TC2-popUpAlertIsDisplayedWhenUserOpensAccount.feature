@@ -13,5 +13,5 @@ Scenario Outline: TC-2 Verify pop up an alert is displayed when the user opens a
       Examples:
             | Browser|
             | Chrome |
-            | Firefox|
-            | Edge   |
+#            | Firefox|
+#            | Edge   |

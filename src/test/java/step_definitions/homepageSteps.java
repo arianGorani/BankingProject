@@ -45,7 +45,7 @@ public class homepageSteps {
     }
     @Then("^I verify pop up alert is displayed with message '(.+)'$")
     public void verifyAdding(String name) {
-        hp.takesScreenshot(name);
+        hp.alertAccept(name);
         Web.closePage();
     }
 }

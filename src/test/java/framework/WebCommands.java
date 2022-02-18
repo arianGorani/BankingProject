@@ -2,12 +2,15 @@ package framework;
 
 import driverWrapper.Web;
 import com.google.common.base.Function;
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.Wait;
 
+import java.io.File;
+import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
 import java.util.Set;
@@ -411,11 +414,11 @@ public class WebCommands extends Web {
         inIt.sendKeys(String.valueOf(number));
     }
     public void waitASec(){
-        Web.getDriver().manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
+        Web.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
     public void waitAMin(){
         try {
-            Thread.sleep(3000);
+            Thread.sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -427,6 +430,22 @@ public class WebCommands extends Web {
     }
     public String getPageName() {
         return Web.getDriver().getTitle();
+    }
+    public void takeScreenshot(){
+        waitAMin();
+        File fileScreen = new File("./screenShots/");
+        int count = 0;
+        if(fileScreen.isFile() && fileScreen.getName().endsWith(".jpg")){
+            count++;
+        }
+        TakesScreenshot sk =(TakesScreenshot) Web.getDriver();
+        File scrShot = sk.getScreenshotAs(OutputType.FILE);
+        try {
+            FileUtils.copyFile(scrShot, new File("./screenShots/img "+ count +".jpg"));
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+
     }
 
 

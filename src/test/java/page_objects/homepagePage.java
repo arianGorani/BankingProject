@@ -42,7 +42,7 @@ public class homepagePage extends WebCommands {
     public void clickToAdd(){
         clickThis(clickAddButton);
     }
-    public void takesScreenshot(String name){
+    public void alertAccept(String name){
 
         try {
             Alert popUp = Web.getDriver().switchTo().alert();

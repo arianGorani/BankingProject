@@ -27,7 +27,7 @@ public class bankManagerLoginSteps {
         bankManager.TakesScreenshot();
     }
     @Then("^PopUp is displayed with message Please Fill out this field take screenshot$")
-    public void popupIsDisplayedWithMessageTakeScreenshot(String arg0) {
+    public void popupIsDisplayedWithMessageTakeScreenshot() {
         bankManager.TakesScreenshot();
     }
 }

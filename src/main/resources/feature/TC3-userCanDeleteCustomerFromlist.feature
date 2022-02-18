@@ -1,5 +1,5 @@
 @regression
-Feature:
+Feature: TC-3
   Scenario Outline: TC-3 Verify user can delete a customer from the customer list
       Given I open application in local <Browser> Browser
       When I click on Bank Manager Login

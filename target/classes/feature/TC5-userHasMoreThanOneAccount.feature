@@ -12,6 +12,6 @@ Feature: TC-5 Verify user has more than one account
     Examples:
       | Browser|
       | Chrome |
-      | Firefox|
-      | Edge   |
+#      | Firefox|
+#      | Edge   |
 

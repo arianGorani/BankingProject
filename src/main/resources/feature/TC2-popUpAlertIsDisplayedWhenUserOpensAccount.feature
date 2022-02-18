@@ -1,5 +1,5 @@
 @regression
-Feature: PopUp verification
+Feature: TC-2
 
 Scenario Outline: TC-2 Verify pop up an alert is displayed when the user opens account
       Given I open application in local <Browser> Browser
