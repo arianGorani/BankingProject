@@ -1,4 +1,4 @@
-Feature:
+Feature:TC-10
     Scenario Outline: TC-10 Verify user cannot write letters on Amount to be withdrawn field
 
       Given I open application in local <Browser> Browser
@@ -14,5 +14,5 @@ Feature:
       Examples:
         | Browser|
         | Chrome |
-#        | Firefox|
-#        | Edge   |
+        | Firefox|
+        | Edge   |

@@ -431,6 +431,7 @@ public class WebCommands extends Web {
     public String getPageName() {
         return Web.getDriver().getTitle();
     }
+
     public void takeScreenshot(){
         waitAMin();
         File fileScreen = new File("./screenShots/");
@@ -438,6 +439,7 @@ public class WebCommands extends Web {
         if(fileScreen.isFile() && fileScreen.getName().endsWith(".jpg")){
             count++;
         }
+
         TakesScreenshot sk =(TakesScreenshot) Web.getDriver();
         File scrShot = sk.getScreenshotAs(OutputType.FILE);
         try {

@@ -1,5 +1,5 @@
 
-  Feature:
+  Feature:TC-8
     Scenario Outline: TC-8 The last transaction is visible on the page
 
       Given I open application in local <Browser> Browser
@@ -18,5 +18,5 @@
       Examples:
         | Browser|
         | Chrome |
-#        | Firefox|
-#        | Edge   |
+        | Firefox|
+        | Edge   |

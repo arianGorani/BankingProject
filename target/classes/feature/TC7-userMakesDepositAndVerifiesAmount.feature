@@ -1,5 +1,5 @@
 @regression
-Feature:
+Feature:TC-7
   Scenario Outline: TC-7 The user makes a deposit and verifies the amount
 
     Given I open application in local <Browser> Browser
@@ -15,5 +15,5 @@ Feature:
     Examples:
       | Browser|
       | Chrome |
-#      | Firefox|
-#      | Edge   |
+      | Firefox|
+      | Edge   |
