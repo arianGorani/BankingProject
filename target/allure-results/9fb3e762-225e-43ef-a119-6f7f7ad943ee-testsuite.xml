@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="0" stop="1645243926323" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <test-cases>
+        <test-case start="1645243923804" stop="1645243923804" status="passed">
+            <name>Given I open application in local Chrome Browser</name>
+            <title>Given I open application in local Chrome Browser</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1645243923939" stop="1645243923940" status="passed">
+            <name>When I click on Customer Login</name>
+            <title>When I click on Customer Login</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1645243923945" stop="1645243923945" status="passed">
+            <name>And user in customer page, verify page name</name>
+            <title>And user in customer page, verify page name</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1645243924146" stop="1645243924146" status="passed">
+            <name>And I chose 'Harry Potter' customer from Dropdown</name>
+            <title>And I chose 'Harry Potter' customer from Dropdown</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1645243924201" stop="1645243924201" status="passed">
+            <name>And I click Login</name>
+            <title>And I click Login</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1645243924382" stop="1645243924382" status="passed">
+            <name>And click button 'Deposit'</name>
+            <title>And click button 'Deposit'</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1645243924592" stop="1645243924592" status="passed">
+            <name>And enter an amount '90'</name>
+            <title>And enter an amount '90'</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1645243924661" stop="1645243924661" status="passed">
+            <name>And click button to submit</name>
+            <title>And click button to submit</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1645243925702" stop="1645243925702" status="passed">
+            <name>Then I verify message 'Deposit Successful' is visible on the page</name>
+            <title>Then I verify message 'Deposit Successful' is visible on the page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1645243925800" stop="1645243925800" status="passed">
+            <name>And click button 'Transactions'</name>
+            <title>And click button 'Transactions'</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1645243926059" stop="1645243926059" status="passed">
+            <name>Then I verify the last transaction date and amount</name>
+            <title>Then I verify the last transaction date and amount</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1645243926196" stop="1645243926196" status="passed">
+            <name>And user logs out</name>
+            <title>And user logs out</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

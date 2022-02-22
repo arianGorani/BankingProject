@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="0" stop="1645243890110" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <test-cases>
+        <test-case start="1645243889255" stop="1645243889255" status="passed">
+            <name>Given I open application in local Chrome Browser</name>
+            <title>Given I open application in local Chrome Browser</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1645243889405" stop="1645243889405" status="passed">
+            <name>When I click on Customer Login</name>
+            <title>When I click on Customer Login</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1645243889412" stop="1645243889412" status="passed">
+            <name>And user in customer page, verify page name</name>
+            <title>And user in customer page, verify page name</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1645243889641" stop="1645243889641" status="passed">
+            <name>And I chose 'Hermoine Granger' customer from Dropdown</name>
+            <title>And I chose 'Hermoine Granger' customer from Dropdown</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1645243889699" stop="1645243889699" status="passed">
+            <name>And I click Login</name>
+            <title>And I click Login</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1645243889869" stop="1645243889869" status="passed">
+            <name>Then I verify name on-page is the same as login 'Hermoine Granger'</name>
+            <title>Then I verify name on-page is the same as login 'Hermoine Granger'</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1645243890013" stop="1645243890013" status="passed">
+            <name>Then user logs out</name>
+            <title>Then user logs out</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

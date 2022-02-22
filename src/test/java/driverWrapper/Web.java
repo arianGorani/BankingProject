@@ -105,8 +105,7 @@ public class Web {
     }
 
 
-       //@After //junit
-       @cucumber.api.java.After
+
        public static void closePage () {
             driver.close();
         }

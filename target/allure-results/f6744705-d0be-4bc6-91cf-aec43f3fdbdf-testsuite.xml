@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:test-suite start="1644868632479" stop="1644868635719" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
-    <name>TC-2 Verify pop up an alert is displayed when the user opens account | Edge |</name>
-    <title>TC-2 Verify pop up an alert is displayed when the user opens account | Edge |</title>
+<ns2:test-suite start="0" stop="1645243887316" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
     <test-cases>
-        <test-case start="1644868632482" stop="1644868632482" status="passed">
+        <test-case start="1645243885993" stop="1645243885993" status="passed">
             <name>Given I open application in local Edge Browser</name>
             <title>Given I open application in local Edge Browser</title>
             <failure>
@@ -11,14 +9,14 @@
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ARIAN-GORANI', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220126154723, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 11272, moz:profile: C:\Users\arian\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 61aa6453-dd8a-47ac-8fa0-210fe986c17d</message>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220126154723, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 7692, moz:profile: C:\Users\arian\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 703d988b-099c-4c07-a351-e69c733b9faf</message>
                 <stack-trace>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ARIAN-GORANI', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220126154723, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 11272, moz:profile: C:\Users\arian\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 61aa6453-dd8a-47ac-8fa0-210fe986c17d
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220126154723, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 7692, moz:profile: C:\Users\arian\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 703d988b-099c-4c07-a351-e69c733b9faf
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -30,10 +28,9 @@ Session ID: 61aa6453-dd8a-47ac-8fa0-210fe986c17d
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
-	at driverWrapper.Web.quitPages(Web.java:116)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+	at driverWrapper.Web.closePage(Web.java:111)
+	at sun.reflect.GeneratedMethodAccessor25.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at cucumber.runtime.Utils$1.call(Utils.java:40)
@@ -104,53 +101,42 @@ Session ID: 61aa6453-dd8a-47ac-8fa0-210fe986c17d
             <attachments/>
             <labels>
                 <label name="host" value="Arian-Gorani"/>
-                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
             </labels>
         </test-case>
-        <test-case start="1644868633661" stop="1644868633661" status="passed">
-            <name>When I click on Bank Manager Login</name>
-            <title>When I click on Bank Manager Login</title>
+        <test-case start="1645243887208" stop="1645243887208" status="passed">
+            <name>When I click on Customer Login</name>
+            <title>When I click on Customer Login</title>
             <steps/>
             <attachments/>
             <labels>
                 <label name="host" value="Arian-Gorani"/>
-                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
             </labels>
         </test-case>
-        <test-case start="1644868634757" stop="1644868634757" status="passed">
-            <name>And I click on Open Account</name>
-            <title>And I click on Open Account</title>
-            <steps/>
-            <attachments/>
-            <labels>
-                <label name="host" value="Arian-Gorani"/>
-                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
-            </labels>
-        </test-case>
-        <test-case start="1644868634785" stop="1644868634786" status="broken">
-            <name>And I chose 'Harry Potter' on dropdown Customer Name</name>
-            <title>And I chose 'Harry Potter' on dropdown Customer Name</title>
+        <test-case start="1645243887237" stop="1645243887238" status="broken">
+            <name>And I chose 'Hermoine Granger' customer from Dropdown</name>
+            <title>And I chose 'Hermoine Granger' customer from Dropdown</title>
             <failure>
                 <message>NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='userSelect']"}
-  (Session info: MicrosoftEdge=98.0.1108.50)
+  (Session info: MicrosoftEdge=98.0.1108.56)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ARIAN-GORANI', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 98.0.1108.50, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:11514}, msedge: {msedgedriverVersion: 98.0.1108.50 (4203d3deac4b8..., userDataDir: C:\Users\arian\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8b7791bbc2e8be9b7623d1b3f9db9919
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 98.0.1108.56, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:10436}, msedge: {msedgedriverVersion: 98.0.1108.50 (4203d3deac4b8..., userDataDir: C:\Users\arian\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b3af332286d7cb9bfd5955a07cd0673b
 *** Element info: {Using=xpath, value=//select[@id='userSelect']}</message>
                 <stack-trace>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='userSelect']"}
-  (Session info: MicrosoftEdge=98.0.1108.50)
+  (Session info: MicrosoftEdge=98.0.1108.56)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ARIAN-GORANI', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 98.0.1108.50, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:11514}, msedge: {msedgedriverVersion: 98.0.1108.50 (4203d3deac4b8..., userDataDir: C:\Users\arian\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8b7791bbc2e8be9b7623d1b3f9db9919
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 98.0.1108.56, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:10436}, msedge: {msedgedriverVersion: 98.0.1108.50 (4203d3deac4b8..., userDataDir: C:\Users\arian\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b3af332286d7cb9bfd5955a07cd0673b
 *** Element info: {Using=xpath, value=//select[@id='userSelect']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.GeneratedConstructorAccessor31.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
@@ -163,22 +149,22 @@ Session ID: 8b7791bbc2e8be9b7623d1b3f9db9919
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at framework.WebCommands.selectDropDown(WebCommands.java:424)
-	at page_objects.openAccountPage.selectName(openAccountPage.java:26)
-	at step_definitions.openAccountSteps.i_chose_Harry_Potter_on_dropdown_Customer_Name(openAccountSteps.java:19)
-	at ✽.And I chose 'Harry Potter' on dropdown Customer Name(TC2.feature:8)
+	at framework.WebCommands.selectDropDown(WebCommands.java:427)
+	at page_objects.customerLoginPage.selectName(customerLoginPage.java:49)
+	at step_definitions.customerLoginSteps.findName(customerLoginSteps.java:19)
+	at ✽.And I chose 'Hermoine Granger' customer from Dropdown(TC5-userHasMoreThanOneAccount.feature:7)
 </stack-trace>
             </failure>
             <steps/>
             <attachments/>
             <labels>
                 <label name="host" value="Arian-Gorani"/>
-                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
             </labels>
         </test-case>
-        <test-case start="1644868634792" stop="1644868634793" status="pending">
-            <name>And I chose 'Dollar' on dropdown Currency</name>
-            <title>And I chose 'Dollar' on dropdown Currency</title>
+        <test-case start="1645243887240" stop="1645243887240" status="pending">
+            <name>And I click Login</name>
+            <title>And I click Login</title>
             <failure>
                 <message>Test ignored (without reason)!</message>
                 <stack-trace>There are no stack trace</stack-trace>
@@ -187,12 +173,12 @@ Session ID: 8b7791bbc2e8be9b7623d1b3f9db9919
             <attachments/>
             <labels>
                 <label name="host" value="Arian-Gorani"/>
-                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
             </labels>
         </test-case>
-        <test-case start="1644868634795" stop="1644868634795" status="pending">
-            <name>And I click the Process button</name>
-            <title>And I click the Process button</title>
+        <test-case start="1645243887241" stop="1645243887241" status="pending">
+            <name>Then Then I verify they are more than one account under Hermoine Granger account</name>
+            <title>Then Then I verify they are more than one account under Hermoine Granger account</title>
             <failure>
                 <message>Test ignored (without reason)!</message>
                 <stack-trace>There are no stack trace</stack-trace>
@@ -201,28 +187,11 @@ Session ID: 8b7791bbc2e8be9b7623d1b3f9db9919
             <attachments/>
             <labels>
                 <label name="host" value="Arian-Gorani"/>
-                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
-            </labels>
-        </test-case>
-        <test-case start="1644868634797" stop="1644868634797" status="pending">
-            <name>Then I verify pop up alert is displayed</name>
-            <title>Then I verify pop up alert is displayed</title>
-            <failure>
-                <message>Test ignored (without reason)!</message>
-                <stack-trace>There are no stack trace</stack-trace>
-            </failure>
-            <steps/>
-            <attachments/>
-            <labels>
-                <label name="host" value="Arian-Gorani"/>
-                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
             </labels>
         </test-case>
     </test-cases>
     <labels>
-        <label name="story" value="TC-2 Verify pop up an alert is displayed when the user opens account | Edge |"/>
-        <label name="feature" value="PopUp verification"/>
-        <label name="framework" value="CucumberJVM"/>
         <label name="language" value="JAVA"/>
     </labels>
 </ns2:test-suite>

@@ -1,3 +1,4 @@
+@regression
 Feature:TC-9
     Scenario Outline: TC-9 Verify user can make a withdrawal
 

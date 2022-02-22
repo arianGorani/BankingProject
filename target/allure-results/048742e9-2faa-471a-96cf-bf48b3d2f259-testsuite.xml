@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:test-suite start="0" stop="1644868703780" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+<ns2:test-suite start="0" stop="1645243958232" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
     <test-cases>
-        <test-case start="1644868701813" stop="1644868701813" status="passed">
+        <test-case start="1645243956968" stop="1645243956968" status="passed">
             <name>Given I open application in local Edge Browser</name>
             <title>Given I open application in local Edge Browser</title>
             <steps/>
             <attachments/>
             <labels>
                 <label name="host" value="Arian-Gorani"/>
-                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
             </labels>
         </test-case>
-        <test-case start="1644868702980" stop="1644868702980" status="passed">
+        <test-case start="1645243958130" stop="1645243958130" status="passed">
             <name>When I click on Customer Login</name>
             <title>When I click on Customer Login</title>
             <steps/>
             <attachments/>
             <labels>
                 <label name="host" value="Arian-Gorani"/>
-                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
             </labels>
         </test-case>
-        <test-case start="1644868703008" stop="1644868703010" status="broken">
+        <test-case start="1645243958146" stop="1645243958147" status="broken">
             <name>And I chose 'Harry Potter' customer from Dropdown</name>
             <title>And I chose 'Harry Potter' customer from Dropdown</title>
             <failure>
                 <message>NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='userSelect']"}
-  (Session info: MicrosoftEdge=98.0.1108.50)
+  (Session info: MicrosoftEdge=98.0.1108.56)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ARIAN-GORANI', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 98.0.1108.50, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:12028}, msedge: {msedgedriverVersion: 98.0.1108.50 (4203d3deac4b8..., userDataDir: C:\Users\arian\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7282053859beed065509e48bfb62ace3
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 98.0.1108.56, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:10946}, msedge: {msedgedriverVersion: 98.0.1108.50 (4203d3deac4b8..., userDataDir: C:\Users\arian\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e9650f2f4aaf730ca3a0583080432cc
 *** Element info: {Using=xpath, value=//select[@id='userSelect']}</message>
                 <stack-trace>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='userSelect']"}
-  (Session info: MicrosoftEdge=98.0.1108.50)
+  (Session info: MicrosoftEdge=98.0.1108.56)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ARIAN-GORANI', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 98.0.1108.50, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:12028}, msedge: {msedgedriverVersion: 98.0.1108.50 (4203d3deac4b8..., userDataDir: C:\Users\arian\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7282053859beed065509e48bfb62ace3
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 98.0.1108.56, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:10946}, msedge: {msedgedriverVersion: 98.0.1108.50 (4203d3deac4b8..., userDataDir: C:\Users\arian\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e9650f2f4aaf730ca3a0583080432cc
 *** Element info: {Using=xpath, value=//select[@id='userSelect']}
-	at sun.reflect.GeneratedConstructorAccessor30.newInstance(Unknown Source)
+	at sun.reflect.GeneratedConstructorAccessor31.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
@@ -56,20 +56,20 @@ Session ID: 7282053859beed065509e48bfb62ace3
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at framework.WebCommands.selectDropDown(WebCommands.java:424)
-	at page_objects.customerLoginPage.selectName(customerLoginPage.java:30)
-	at step_definitions.customerLoginSteps.findName(customerLoginSteps.java:18)
-	at ✽.And I chose 'Harry Potter' customer from Dropdown(TC7.feature:7)
+	at framework.WebCommands.selectDropDown(WebCommands.java:427)
+	at page_objects.customerLoginPage.selectName(customerLoginPage.java:49)
+	at step_definitions.customerLoginSteps.findName(customerLoginSteps.java:19)
+	at ✽.And I chose 'Harry Potter' customer from Dropdown(TC9-verifyUserCanMakeWithdrawal.feature:7)
 </stack-trace>
             </failure>
             <steps/>
             <attachments/>
             <labels>
                 <label name="host" value="Arian-Gorani"/>
-                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
             </labels>
         </test-case>
-        <test-case start="1644868703014" stop="1644868703014" status="pending">
+        <test-case start="1645243958148" stop="1645243958148" status="pending">
             <name>And I click Login</name>
             <title>And I click Login</title>
             <failure>
@@ -80,12 +80,12 @@ Session ID: 7282053859beed065509e48bfb62ace3
             <attachments/>
             <labels>
                 <label name="host" value="Arian-Gorani"/>
-                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
             </labels>
         </test-case>
-        <test-case start="1644868703015" stop="1644868703015" status="pending">
-            <name>And click deposit, enter an amount '90'</name>
-            <title>And click deposit, enter an amount '90'</title>
+        <test-case start="1645243958149" stop="1645243958149" status="pending">
+            <name>And click button 'Withdrawal'</name>
+            <title>And click button 'Withdrawal'</title>
             <failure>
                 <message>Test ignored (without reason)!</message>
                 <stack-trace>There are no stack trace</stack-trace>
@@ -94,12 +94,12 @@ Session ID: 7282053859beed065509e48bfb62ace3
             <attachments/>
             <labels>
                 <label name="host" value="Arian-Gorani"/>
-                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
             </labels>
         </test-case>
-        <test-case start="1644868703017" stop="1644868703017" status="pending">
-            <name>And click Deposit button</name>
-            <title>And click Deposit button</title>
+        <test-case start="1645243958150" stop="1645243958150" status="pending">
+            <name>And enter an amount '90'</name>
+            <title>And enter an amount '90'</title>
             <failure>
                 <message>Test ignored (without reason)!</message>
                 <stack-trace>There are no stack trace</stack-trace>
@@ -108,12 +108,12 @@ Session ID: 7282053859beed065509e48bfb62ace3
             <attachments/>
             <labels>
                 <label name="host" value="Arian-Gorani"/>
-                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
             </labels>
         </test-case>
-        <test-case start="1644868703019" stop="1644868703019" status="pending">
-            <name>Then I verify message 'Deposit Successful' is visible on the page</name>
-            <title>Then I verify message 'Deposit Successful' is visible on the page</title>
+        <test-case start="1645243958152" stop="1645243958152" status="pending">
+            <name>And click button to submit</name>
+            <title>And click button to submit</title>
             <failure>
                 <message>Test ignored (without reason)!</message>
                 <stack-trace>There are no stack trace</stack-trace>
@@ -122,12 +122,12 @@ Session ID: 7282053859beed065509e48bfb62ace3
             <attachments/>
             <labels>
                 <label name="host" value="Arian-Gorani"/>
-                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
             </labels>
         </test-case>
-        <test-case start="1644868703019" stop="1644868703019" status="pending">
-            <name>And user log out</name>
-            <title>And user log out</title>
+        <test-case start="1645243958152" stop="1645243958152" status="pending">
+            <name>Then user logs out</name>
+            <title>Then user logs out</title>
             <failure>
                 <message>Test ignored (without reason)!</message>
                 <stack-trace>There are no stack trace</stack-trace>
@@ -136,21 +136,7 @@ Session ID: 7282053859beed065509e48bfb62ace3
             <attachments/>
             <labels>
                 <label name="host" value="Arian-Gorani"/>
-                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
-            </labels>
-        </test-case>
-        <test-case start="1644868703780" stop="1644868703780" status="pending">
-            <name>| Edge |</name>
-            <title>| Edge |</title>
-            <failure>
-                <message>Test ignored (without reason)!</message>
-                <stack-trace>There are no stack trace</stack-trace>
-            </failure>
-            <steps/>
-            <attachments/>
-            <labels>
-                <label name="host" value="Arian-Gorani"/>
-                <label name="thread" value="8000@Arian-Gorani.main(1)"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
             </labels>
         </test-case>
     </test-cases>

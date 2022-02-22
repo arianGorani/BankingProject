@@ -1,3 +1,4 @@
+@regression
 Feature:TC-10
     Scenario Outline: TC-10 Verify user cannot write letters on Amount to be withdrawn field
 

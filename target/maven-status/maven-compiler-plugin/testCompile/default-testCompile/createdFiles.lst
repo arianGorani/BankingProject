@@ -1,5 +1,6 @@
 step_definitions\homepageSteps.class
 utils\GetSumFromList.class
+utils\Screenshots.class
 utils\Sleep.class
 step_definitions\openAccountSteps.class
 step_definitions\addCustomerSteps.class
