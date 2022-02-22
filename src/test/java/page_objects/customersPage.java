@@ -17,6 +17,8 @@ public class customersPage extends WebCommands {
     By customerButton=By.xpath("//button[@ng-click='showCust()']");
     By listPresent = By.xpath("//tbody/tr");
     By delCustomer = By.xpath("(//button[text()='Delete'])[1]");
+    By messageFailed = By.xpath("//span[contains(text(),'Transaction Failed. You can not withdraw amount mo')]");
+
 
     public void clickCustom(){
         clickThis(customerButton);
@@ -31,5 +33,9 @@ public class customersPage extends WebCommands {
     public void verifyCustomerIsDeleted(){
         Assert.assertNotEquals(listBefore, listAfter);
         System.out.println("List before deleted customer " + listBefore.size()+" "+ "List after deleted customer " +  listAfter.size());
+    }
+    public void displayMessageFailed(String text){
+        WebElement message = Web.getDriver().findElement(messageFailed);
+        Assert.assertEquals(text, message);
     }
 }

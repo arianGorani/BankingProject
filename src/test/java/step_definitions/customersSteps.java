@@ -24,6 +24,11 @@ public class customersSteps {
         cusPage.verifyCustomerIsDeleted();
         Web.closePage();
     }
+    @Then ("^I verify '(.+)' message is displayed$")
+    public void verifyMessage(String text){
+        cusPage.displayMessageFailed(text);
+    }
+
 
 
 }
