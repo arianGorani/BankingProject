@@ -1,5 +1,6 @@
 package driverWrapper;
 
+import org.junit.After;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import utils.TestConstant;
@@ -105,7 +106,7 @@ public class Web {
 
 
 
-        public static void closePage () {
+       public static void closePage () {
             driver.close();
         }
 

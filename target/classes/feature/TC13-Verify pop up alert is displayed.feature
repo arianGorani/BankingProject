@@ -14,5 +14,5 @@ Feature: TC-13
     Examples:
       | Browser|
       | Chrome |
-#      | Firefox|
-#      | Edge   |
+      | Firefox|
+      | Edge   |

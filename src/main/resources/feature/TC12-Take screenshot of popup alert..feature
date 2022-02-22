@@ -1,4 +1,3 @@
-
 @regression
 Feature: TC-12
 

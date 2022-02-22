@@ -1,5 +1,5 @@
 @regression
-Feature: TC-1 Pop up alert is displayed with message
+Feature: TC-1
 
   Scenario Outline: Verify pop up alert is displayed with message "Customer added successfully with customer id :" when user Add Customer
     Given I open application in local <Browser> Browser
@@ -16,6 +16,6 @@ Feature: TC-1 Pop up alert is displayed with message
     Examples:
       | Browser|
       | Chrome |
-#      | Firefox|
-#      | Edge   |
+      | Firefox|
+      | Edge   |
 

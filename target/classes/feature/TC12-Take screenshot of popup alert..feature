@@ -1,4 +1,3 @@
-
 @regression
 Feature: TC-12
 
@@ -17,5 +16,5 @@ Feature: TC-12
     Examples:
       | Browser|
       | Chrome |
-#      | Firefox|
-#      | Edge   |
+      | Firefox|
+      | Edge   |

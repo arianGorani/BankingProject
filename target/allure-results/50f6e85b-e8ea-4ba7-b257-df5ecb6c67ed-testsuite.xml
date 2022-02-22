@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1645243747765" stop="1645243750129" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify pop up alert is displayed with message "Customer added successfully with customer id | Chrome |</name>
+    <title>Verify pop up alert is displayed with message "Customer added successfully with customer id | Chrome |</title>
+    <test-cases>
+        <test-case start="1645243747782" stop="1645243747792" status="passed">
+            <name>Given I open application in local Chrome Browser</name>
+            <title>Given I open application in local Chrome Browser</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1645243748063" stop="1645243748063" status="passed">
+            <name>When I click on Bank Manager Login</name>
+            <title>When I click on Bank Manager Login</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1645243748242" stop="1645243748242" status="passed">
+            <name>And I click on Add Customer</name>
+            <title>And I click on Add Customer</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1645243748508" stop="1645243748508" status="passed">
+            <name>And I type 'Johnny' in first name field</name>
+            <title>And I type 'Johnny' in first name field</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1645243748633" stop="1645243748633" status="passed">
+            <name>And I type 'Bravo' in last name field</name>
+            <title>And I type 'Bravo' in last name field</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1645243748769" stop="1645243748769" status="passed">
+            <name>And I type '10123' in Post Code field</name>
+            <title>And I type '10123' in Post Code field</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1645243748839" stop="1645243748839" status="passed">
+            <name>And I click on Add Costumer button</name>
+            <title>And I click on Add Costumer button</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1645243750011" stop="1645243750011" status="passed">
+            <name>Then I verify pop up alert is displayed with message 'Customer added successfully with customer id :6'</name>
+            <title>Then I verify pop up alert is displayed with message 'Customer added successfully with customer id :6'</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify pop up alert is displayed with message &quot;Customer added successfully with customer id | Chrome |"/>
+        <label name="feature" value="TC-1"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

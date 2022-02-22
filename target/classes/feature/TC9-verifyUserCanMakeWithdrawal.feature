@@ -1,4 +1,5 @@
-Feature:
+@regression
+Feature:TC-9
     Scenario Outline: TC-9 Verify user can make a withdrawal
 
       Given I open application in local <Browser> Browser
@@ -13,5 +14,5 @@ Feature:
       Examples:
         | Browser|
         | Chrome |
-#        | Firefox|
-#        | Edge   |
+        | Firefox|
+        | Edge   |

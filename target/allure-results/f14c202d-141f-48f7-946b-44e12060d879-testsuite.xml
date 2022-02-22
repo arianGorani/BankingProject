@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="0" stop="1645243815881" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <test-cases>
+        <test-case start="1645243810963" stop="1645243810963" status="passed">
+            <name>Given I open application in local Chrome Browser</name>
+            <title>Given I open application in local Chrome Browser</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1645243811145" stop="1645243811145" status="passed">
+            <name>When I click on Bank Manager Login</name>
+            <title>When I click on Bank Manager Login</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1645243811324" stop="1645243811324" status="passed">
+            <name>And I click on Add Customer</name>
+            <title>And I click on Add Customer</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1645243811586" stop="1645243811586" status="passed">
+            <name>And I type Zeshan in the First Name field</name>
+            <title>And I type Zeshan in the First Name field</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1645243811655" stop="1645243811655" status="passed">
+            <name>And I type '  ' in Last name field</name>
+            <title>And I type '  ' in Last name field</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1645243811801" stop="1645243811801" status="passed">
+            <name>And I type 10465 in the Post Code field</name>
+            <title>And I type 10465 in the Post Code field</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1645243811919" stop="1645243811919" status="passed">
+            <name>And I click on Add Costumer button</name>
+            <title>And I click on Add Costumer button</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1645243814188" stop="1645243814188" status="passed">
+            <name>Then PopUp is displayed with message Please Fill out this field take screenshot</name>
+            <title>Then PopUp is displayed with message Please Fill out this field take screenshot</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Arian-Gorani"/>
+                <label name="thread" value="15500@Arian-Gorani.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
